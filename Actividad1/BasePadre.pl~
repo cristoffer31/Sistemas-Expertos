@@ -1,0 +1,11 @@
+padre(luis,ramon,jose).
+
+hijo(carlos,antonio,ricardo).
+
+padrehijo(luis,carlos).
+padrehijo(ramon,antonio).
+padrehijo(jose,ricardo).
+
+
+
+relacionpadrehijo(luis,X):-hijo(X),padrehijo(luis,X).
